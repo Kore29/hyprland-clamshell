@@ -49,18 +49,6 @@ exec = /path/to/clamshell.sh check
 
 ```
 
-## ❓ Troubleshooting
-
-**I see squares or '?' icons in notifications:**
-This happens if you don't have an icon theme installed.
-
-1. Install an icon theme (e.g., `papirus-icon-theme`).
-2. Set it in your Hyprland config:
-```bash
-gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
-
-```
-
 ## 📋 Requirements
 
 * Hyprland
